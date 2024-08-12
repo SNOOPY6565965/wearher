@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天气预报</title>
+  <link rel="stylesheet" href="JS/weather.css">
+</head>
+<body>
+  <div class="boxs">
+    <div class="header">
+      <div class="header1"></div>
+      <div class="header2">
+        <img src="img/地标.png" alt="地标">
+        <span class="address"></span>
+        <input type="text" class="int" placeholder="搜索城市">
+        <ul class="local">
+        </ul>
+      </div>
+    </div>
+    <div class="content"></div>
+    <div class="footer">
+      <h3>7日内天气预报</h>
+      <div class="footer1">
+        <!-- <div class="box">
+          <p>今天</p>
+          <p>02月10日</p>
+          <img src="img/晴天.png" alt="太阳">
+          <p>晴</p>
+          <p>-4 - 8°C</p>
+          <p>
+            <span>南风</span>
+            <span>&lt;3级</span>
+          </p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- my-axios要写在其他script的最前面 -->
+  <script src="JS/my-axios.js"></script>
+  <script src="JS/weather.js"></script>
+  <script src="JS/city.js"></script>
+ 
+</body>
+</html>
